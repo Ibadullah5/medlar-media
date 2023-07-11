@@ -1,0 +1,43 @@
+import React from "react";
+import "./About.css";
+import Aboutimage from "../../assets/About.jpg";
+
+function About() {
+  return (
+    <div className="main_div">
+      <div className="header">
+        <h1 className="about_Text">ABOUT US</h1>
+      </div>
+
+      <div className="container">
+        <div class="text">
+          <p>
+            Medlar Media is a leading talent marketing agency in Pakistan. We
+            bring your brand story to life through harnessing the power of
+            authentic connections with celebrated individuals and by developing
+            captivating social engagement. We help brands engage and reach their
+            target audiences across Pakistan through strategic and creative
+            talent marketing <br />
+            <br /> At Medlar Media we believe in purposeful connections between
+            a brand and talent. By developing and executing tailor made campaign
+            strategies we offer to enhance your outreach and amplify your brand
+            across various social networks.
+          </p>
+        </div>
+        <div class="image">
+          <img src={Aboutimage} alt="Your Image" />
+        </div>
+      </div>
+      <div className="footer">
+        <div className="inquiry">
+          <p>FOR GENERAL INQUIRIES 03240803628</p>
+        </div>
+        <div className="copyright">
+          <p>© 2021 by Medlar Media</p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default About;
