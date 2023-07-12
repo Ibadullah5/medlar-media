@@ -4,7 +4,17 @@ import {
 }
   from '../../assets'
 
+import { useEffect } from "react";
+
 const Influencers = () => {
+
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    })
+  }, [])
+
   return (
     <div className='influencers'>
 

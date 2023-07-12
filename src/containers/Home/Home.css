@@ -67,18 +67,25 @@
 
   color: var(--third-color);
   background-color: var(--secondary-color);
+  text-decoration: none;
+  transition: all 0.5s;
+}
 
+.navlinks-btn {
+  color: var(--third-color);
+  text-decoration: none;
   font-family: var(--secondary-font);
   font-size: 16px;
   font-weight: 500;
-
-  transition: all 0.5s;
 }
 
 .home__btn:hover {
   cursor: pointer;
 
   background-color: var(--third-color);
+}
+
+.home__btn:hover .navlinks-btn {
   color: var(--secondary-color);
 }
 

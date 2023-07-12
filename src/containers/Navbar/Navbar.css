@@ -49,7 +49,7 @@
   transition: all 0.5s;
 }
 
-.navlinks :hover {
+.navbar ul li a:hover {
   color: var(--secondary-color);
   cursor: pointer;
 }
@@ -75,11 +75,10 @@
 
   background-color: var(--bg-primary);
 
-  padding: 8px 20px;
 
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   justify-content: flex-start;
   /* animation: slide-bottom 0.5s ease; */
   transition: all 0.6s;
@@ -90,8 +89,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
 }
+
 
 .navlinks-mobile {
   list-style-type: none;

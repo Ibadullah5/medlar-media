@@ -1,4 +1,5 @@
 import './Home.css'
+import { NavLink } from 'react-router-dom'
 const Home = () => {
   return (
     <div className='home'>
@@ -11,7 +12,9 @@ const Home = () => {
             Giving your talent a medium and a voice
             to reach the maximum potential
           </p>
-          <button className='home__btn'>See Influencers</button>
+          <button className='home__btn'><NavLink className='navlinks-btn' to='/influencers'>
+            See Influencers
+          </NavLink></button>
         </div>
       </div>
 
