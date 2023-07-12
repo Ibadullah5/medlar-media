@@ -109,22 +109,22 @@
 
 
 
-@media screen and (max-width:1100px) {
+@media screen and (max-width:1050px) {
   .influencers__name {
-    width: 180px;
-    height: 260px;
+    width: 11rem;
+    height:20rem;
   }
 
   .influencers__img {
-    width: 180px;
+    width: 11rem;
   }
 
   .influencers__img img {
-    height: 260px;
+    height: 20rem;
   }
 }
 
-@media screen and (max-width:650px) {
+@media screen and (max-width:700px) {
 
   .influencers {
     padding: 140px 0px;
@@ -161,6 +161,21 @@
     height: 27rem;
   }
 }
+@media only screen and (min-width: 1050px) and (max-width: 1300px) {
+  /* CSS rules for screens between 1075px and 1300px go here */
+.influencers__name {
+    width: 15rem;
+    height:22rem;
+  }
+
+  .influencers__img {
+    width: 15rem;
+  }
+
+  .influencers__img img {
+    height: 22rem;
+  }
+}
 
 
 @media screen and (min-width: 1823px) {
@@ -175,6 +190,21 @@
 
   .influencers__img img {
     height: 29rem;
+  }
+}
+
+@media screen and (min-width: 2399px) {
+  .influencers__name {
+    width: 30rem;
+    height:32rem;
+  }
+
+  .influencers__img {
+    width: 30rem;
+  }
+
+  .influencers__img img {
+    height: 32rem;
   }
 }
 
