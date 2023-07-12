@@ -4,9 +4,15 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import About from "./containers/About/About";
 import Services from "./containers/Services/Services";
+import Contact from "./containers/Contact/Contact";
 
 function App() {
-  return <></>;
+  return (
+    <>
+      {/* <Contact />
+      <Services/> */}
+    </>
+  );
 }
 
 export default App;

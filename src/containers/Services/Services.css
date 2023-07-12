@@ -25,7 +25,7 @@
 
 
 .pink_bg {
-  width: 60%;
+  width: 55%;
   margin: auto;
   padding-top: 3rem;
   padding-bottom: 9rem;
@@ -89,7 +89,7 @@ background-color: #ec7969;
 .footer {
   display: flex;
   flex-direction: column;
-  padding-top: 20px;
+  padding-top: 60px;
   margin: 0 5.1rem;
 }
 

@@ -112,7 +112,7 @@ text-align: center;
 .footer {
   display: flex;
   flex-direction: column;
-  padding-top: 20px;
+  padding-top: 60px;
   margin: 0 5.1rem;
 }
 

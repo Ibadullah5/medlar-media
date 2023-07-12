@@ -53,7 +53,7 @@ function Services() {
             </p>
           </div>
           <div class="section section_pink">
-            <h2 className="text_black">Heading 4</h2>
+            <h2 className="text_black">RECRUITEMENT BENEFITS</h2>
             <p className="para_pink">
               Once you’ve signed with Medler Media you work with better brands
               and make more money. Our talent on average makes more than other
