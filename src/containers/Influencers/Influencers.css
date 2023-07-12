@@ -32,7 +32,6 @@
 
 .influencers__pack {
   display: flex;
-
 }
 
 .influencers__name {
@@ -42,10 +41,8 @@
   width: 297px;
   height: 396px;
 
-
   transition: all 0.5s;
   background-color: #2c2b2b;
-
 }
 
 .influencers__name:hover {
@@ -54,7 +51,7 @@
 }
 
 .influencers__name:hover .paragraph {
-  transform: scale(1.1)
+  transform: scale(1.1);
 }
 
 .paragraph {
@@ -107,12 +104,10 @@
   font-size: 15px;
 }
 
-
-
-@media screen and (max-width:1050px) {
+@media screen and (max-width: 1050px) {
   .influencers__name {
     width: 11rem;
-    height:20rem;
+    height: 20rem;
   }
 
   .influencers__img {
@@ -124,8 +119,7 @@
   }
 }
 
-@media screen and (max-width:700px) {
-
+@media screen and (max-width: 700px) {
   .influencers {
     padding: 140px 0px;
   }
@@ -147,10 +141,12 @@
     font-size: 15px;
   }
 }
-@media screen and (min-width: 1300px) {
+
+
+@media screen and (min-width: 1300px) and (max-width: 1499px) {
   .influencers__name {
     width: 19rem;
-    height:27rem;
+    height: 27rem;
   }
 
   .influencers__img {
@@ -163,9 +159,9 @@
 }
 @media only screen and (min-width: 1050px) and (max-width: 1300px) {
   /* CSS rules for screens between 1075px and 1300px go here */
-.influencers__name {
+  .influencers__name {
     width: 15rem;
-    height:22rem;
+    height: 23rem;
   }
 
   .influencers__img {
@@ -173,30 +169,59 @@
   }
 
   .influencers__img img {
-    height: 22rem;
+    height: 23rem;
   }
 }
-
-
-@media screen and (min-width: 1823px) {
+@media only screen and (min-width: 1500px) and (max-width: 1600px) {
+  /* CSS rules for screens between 1075px and 1300px go here */
   .influencers__name {
-    width: 25rem;
-    height:29rem;
+    width: 20rem;
+    height: 26rem;
   }
 
   .influencers__img {
-    width: 25rem;
+    width: 20rem;
+  }
+
+  .influencers__img img {
+    height: 26rem;
+  }
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 1823px) {
+  /* CSS rules for screens between 1075px and 1300px go here */
+  .influencers__name {
+    width: 23rem;
+    height: 29rem;
+  }
+
+  .influencers__img {
+    width: 23rem;
   }
 
   .influencers__img img {
     height: 29rem;
   }
 }
+@media screen and (min-width: 1823px) {
+  .influencers__name {
+    width: 25rem;
+    height: 31rem;
+  }
+
+  .influencers__img {
+    width: 25rem;
+  }
+
+  .influencers__img img {
+    height: 31rem;
+  }
+}
 
 @media screen and (min-width: 2399px) {
   .influencers__name {
     width: 30rem;
-    height:32rem;
+    height: 32rem;
   }
 
   .influencers__img {
@@ -212,7 +237,7 @@
   display: flex;
   flex-direction: column;
   padding-top: 60px;
-  
+
   margin: 0 5.1rem;
 }
 
