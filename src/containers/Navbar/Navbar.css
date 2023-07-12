@@ -23,9 +23,13 @@
   font-size: 30px;
   font-weight: 400;
 
+  transition: all 0.5s;
   color: #fff;
 }
-
+.navbar p:hover {
+  color: var(--secondary-color);
+  cursor: pointer;
+}
 .navbar ul {
   display: flex;
   align-items: center;

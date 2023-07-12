@@ -1,9 +1,19 @@
 import "./Influencers.css";
 import {
-  warisha, syed, aashir, areeba, jiya, maimoona, mustafa, nazeeha, reeja, roha
-}
-  from '../../assets'
-
+  warisha,
+  syed,
+  aashir,
+  areeba,
+  jiya,
+  maimoona,
+  mustafa,
+  nazeeha,
+  reeja,
+  roha,
+  ayesha,
+  daniya,
+} from "../../assets";
+import "animate.css";
 import { useEffect } from "react";
 
 const Influencers = () => {

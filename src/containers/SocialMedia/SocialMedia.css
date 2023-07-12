@@ -1,5 +1,6 @@
 .socialmedia img {
   width: 22px;
+  z-index: 9999;
 }
 
 .facebook-img {
