@@ -13,6 +13,7 @@ import reeja from './reeja-jillani.jpg'
 import roha from './roha-khan.jpg'
 import syed from './syed-abdula.jpeg'
 import warisha from './waridsha.jpg'
+import upArrow from './up-arrow.svg'
 
 export {
   facebook,
@@ -29,5 +30,6 @@ export {
   mustafa,
   nazeeha,
   reeja,
-  roha
+  roha,
+  upArrow
 }

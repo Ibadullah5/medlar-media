@@ -1,8 +1,27 @@
 import './SocialMedia.css'
-import { facebook, instagram, message } from '../../assets'
-
+import { facebook, instagram, message, upArrow } from '../../assets'
+import { useState, useEffect } from 'react'
 
 const SocialMedia = () => {
+
+  const [showButton, setShowButton] = useState()
+
+  useEffect(() => {
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 500)
+        setShowButton(true)
+      else
+        setShowButton(false)
+    })
+  }, [])
+
+  const scrollUp = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    })
+  }
+
   return (
     <div className='socialmedia'>
       <img className='facebook-img' src={facebook} />
@@ -10,7 +29,12 @@ const SocialMedia = () => {
       <div className='message-wrapper'>
         <img src={message} />
       </div>
-    </div>
+      {showButton &&
+        < button className='up-btn' onClick={scrollUp}>
+          <img src={upArrow} />
+        </button>
+      }
+    </div >
   )
 }
 
