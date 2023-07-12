@@ -1,6 +1,8 @@
 import facebook from './facebook.svg'
 import instagram from './instagram.svg'
 import message from './message.svg'
+import cross from './cross.svg'
+import hamburger from './hamburger.svg'
 import aashir from './aashir-wajahat.jpg'
 import areeba from './areeba-nadeem.jpg'
 import jiya from './jiya-khurram.jpg'
@@ -16,6 +18,8 @@ export {
   facebook,
   instagram,
   message,
+  cross,
+  hamburger,
   warisha,
   syed,
   aashir,

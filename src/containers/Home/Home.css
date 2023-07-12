@@ -1,7 +1,5 @@
 .home {
   overflow-x: hidden;
-  position: relative;
-
 
   background: url('../../assets/home-background.jpg');
   background-position: center;
@@ -16,7 +14,7 @@
   align-items: flex-start;
   justify-content: space-around;
 
-  gap: 40px
+  gap: 40px;
 }
 
 .home-maindiv {
@@ -106,13 +104,13 @@
 .facebook-img {
   position: fixed;
   right: 40px;
-  top: 40%
+  top: 40%;
 }
 
 .instagram-img {
   position: fixed;
   right: 40px;
-  top: 47%
+  top: 47%;
 }
 
 .message-wrapper {

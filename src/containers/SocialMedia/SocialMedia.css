@@ -1,0 +1,21 @@
+.socialmedia img {
+  width: 22px;
+}
+
+.facebook-img {
+  position: fixed;
+  right: 40px;
+  top: 40%;
+}
+
+.instagram-img {
+  position: fixed;
+  right: 40px;
+  top: 47%;
+}
+
+@media screen and (max-width: 1100px) {
+  .socialmedia {
+    display: none;
+  }
+}

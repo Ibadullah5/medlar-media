@@ -18,3 +18,31 @@
   margin: 0;
   scroll-behavior: smooth;
 }
+
+@-webkit-keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateX(25%);
+    transform: translateX(25%);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateX(25%);
+    transform: translateX(25%);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

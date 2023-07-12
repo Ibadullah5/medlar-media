@@ -1,14 +1,8 @@
 import './Home.css'
-import { facebook, instagram, message } from '../../assets'
-
 const Home = () => {
   return (
     <div className='home'>
-      <img className='facebook-img' src={facebook} />
-      <img className='instagram-img' src={instagram} />
-      <div className='message-wrapper'>
-        <img src={message} />
-      </div>
+
       <div className='home-maindiv'>
         <h1 className='home__heading'>MEDIA<br /> MEDLAR</h1>
         <div className='home-maindiv-secondarydiv'>
