@@ -1,9 +1,9 @@
 import React from "react";
 import "./Services.css";
-
+import 'animate.css'
 function Services() {
   return (
-    <div className="services_main">
+    <div className="services_main animate__animated animate__fadeIn">
       <div className="header">
         <h1 className="about_Text">SERVICES AT MEDLAR MEDIA</h1>
       </div>

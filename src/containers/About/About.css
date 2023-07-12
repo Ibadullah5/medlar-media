@@ -14,7 +14,7 @@ body {
   font-family: oswald-extralight, oswald, sans-serif;
   font-size: 55px;
   font-weight: 400;
-text-align: center;
+  text-align: center;
 }
 
 .container {
@@ -141,3 +141,4 @@ text-align: center;
     text-align: center;
   }
 }
+

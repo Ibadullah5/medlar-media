@@ -1,9 +1,10 @@
 import React from "react";
 import "./Contact.css";
+import "animate.css";
 
 function Contact() {
   return (
-    <div className="contact_main">
+    <div className="contact_main animate__animated animate__fadeIn">
       <div className="contact_header">
         <h1 className="contact_Text">CONTACT US</h1>
       </div>
@@ -34,9 +35,16 @@ function Contact() {
           </div>
           <div className="contact_form">
             <div class="form__group field">
-    <input type="email" class="form__field" placeholder="Email" required=""/>
-    <label for="name" class="form__label">Email</label>
-</div>
+              <input
+                type="email"
+                class="form__field"
+                placeholder="Email"
+                required=""
+              />
+              <label for="name" class="form__label">
+                Email
+              </label>
+            </div>
             <div className="contact_button_div">
               <button className="contact_button">Subscribe</button>
             </div>

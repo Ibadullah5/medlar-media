@@ -1,52 +1,51 @@
-import './Navbar.css'
-import { NavLink } from 'react-router-dom'
-import { hamburger, cross, facebook, instagram } from '../../assets';
-import { useState } from 'react'
+import "./Navbar.css";
+import { NavLink } from "react-router-dom";
+import { hamburger, cross, facebook, instagram } from "../../assets";
+import { useState } from "react";
 
 const Navbar = () => {
-
-  const [toggle, setToggle] = useState(true)
-  const [remove, setRemove] = useState(true)
+  const [toggle, setToggle] = useState(true);
+  const [remove, setRemove] = useState(true);
 
   const handleRemove = () => {
-    setRemove(prev => !prev)
-  }
+    setRemove((prev) => !prev);
+  };
 
   const handleToggle = () => {
-    setToggle(true)
-    setRemove(prev => !prev)
-  }
-
+    setToggle(true);
+    setRemove((prev) => !prev);
+  };
 
   return (
-    <div className='navbar'>
-      <div className='navbar-largescreens'>
-        <p>MEDLAR MEDIA</p>
-
-        <div className='navbar__leftside'>
+    <div className="navbar">
+      <div className="navbar-largescreens">
+        <NavLink className="navlinks" to="/">
+          <p>MEDLAR MEDIA</p>
+        </NavLink>
+        <div className="navbar__leftside">
           <ul>
             <li>
-              <NavLink className='navlinks' to='/'>
+              <NavLink className="navlinks" to="/">
                 Home
               </NavLink>
             </li>
             <li>
-              <NavLink className='navlinks' to='/about'>
+              <NavLink className="navlinks" to="/about">
                 About
               </NavLink>
             </li>
             <li>
-              <NavLink className='navlinks' to='/influencers'>
+              <NavLink className="navlinks" to="/influencers">
                 Influencers
               </NavLink>
             </li>
             <li>
-              <NavLink className='navlinks' to='/services'>
+              <NavLink className="navlinks" to="/services">
                 Services
               </NavLink>
             </li>
             <li>
-              <NavLink className='navlinks' to='/contact'>
+              <NavLink className="navlinks" to="/contact">
                 Contact
               </NavLink>
             </li>
@@ -54,52 +53,54 @@ const Navbar = () => {
         </div>
       </div>
       <img
-        className='navbar__rightside-hamburger'
+        className="navbar__rightside-hamburger"
         onClick={handleToggle}
         src={hamburger}
-        alt="hamburger" />
+        alt="hamburger"
+      />
       {toggle && (
-        <div className={`navbar__mobile ${remove ? 'remove' : ''}`}>
+        <div className={`navbar__mobile ${remove ? "remove" : ""}`}>
           <img
-            className='navbar__rightside-hamburger'
+            className="navbar__rightside-hamburger"
             onClick={handleRemove}
             src={cross}
-            alt="cross" />
-          <ul className='navbar__mobile-mainlist'>
+            alt="cross"
+          />
+          <ul className="navbar__mobile-mainlist">
             <li onClick={handleRemove}>
-              <NavLink className='navlinks-mobile' to='/'>
+              <NavLink className="navlinks-mobile" to="/">
                 Home
               </NavLink>
             </li>
             <li onClick={handleRemove}>
-              <NavLink className='navlinks-mobile' to='/about'>
+              <NavLink className="navlinks-mobile" to="/about">
                 About
               </NavLink>
             </li>
             <li onClick={handleRemove}>
-              <NavLink className='navlinks-mobile' to='/influencers'>
+              <NavLink className="navlinks-mobile" to="/influencers">
                 Influencers
               </NavLink>
             </li>
             <li onClick={handleRemove}>
-              <NavLink className='navlinks-mobile' to='/services'>
+              <NavLink className="navlinks-mobile" to="/services">
                 Services
               </NavLink>
             </li>
             <li onClick={handleRemove}>
-              <NavLink className='navlinks-mobile' to='/contact'>
+              <NavLink className="navlinks-mobile" to="/contact">
                 Contact
               </NavLink>
             </li>
-            <li className='social-icons'>
-              <img className='facebook-img' src={facebook} />
-              <img className='instagram-img' src={instagram} />
+            <li className="social-icons">
+              <img className="facebook-img" src={facebook} />
+              <img className="instagram-img" src={instagram} />
             </li>
           </ul>
         </div>
       )}
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

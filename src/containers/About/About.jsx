@@ -1,17 +1,21 @@
 import React from "react";
 import "./About.css";
 import Aboutimage from "../../assets/About.jpg";
-
+import "animate.css";
 function About() {
+  const animationDuration = "1s";
   return (
-    <div className="main_div">
+    <div
+      className="main_div animate__animated animate__fadeIn"
+      style={{ animationDuration }}
+    >
       <div className="header">
         <h1 className="about_Text">ABOUT US</h1>
       </div>
 
       <div className="container">
         <div class="text">
-          <p>
+          <p className="animate__animated animate__fadeIn">
             Medlar Media is a leading talent marketing agency in Pakistan. We
             bring your brand story to life through harnessing the power of
             authentic connections with celebrated individuals and by developing

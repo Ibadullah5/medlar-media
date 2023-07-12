@@ -1,26 +1,34 @@
-import './Influencers.css'
+import "./Influencers.css";
 import {
-  warisha, syed, aashir, areeba, jiya, maimoona, mustafa, nazeeha, reeja, roha
-}
-  from '../../assets'
-
+  warisha,
+  syed,
+  aashir,
+  areeba,
+  jiya,
+  maimoona,
+  mustafa,
+  nazeeha,
+  reeja,
+  roha,
+} from "../../assets";
+import "animate.css";
 import { useEffect } from "react";
 
 const Influencers = () => {
-
   useEffect(() => {
     window.scrollTo({
       top: 0,
-      behavior: 'smooth'
-    })
-  }, [])
+      behavior: "smooth",
+    });
+  }, []);
 
   return (
     <>
       <div className="influencers">
-        <h1 className="influencers__heading">INFLUENCERS</h1>
-
-        <div className="influencers__grid">
+        <h1 className="influencers__heading  animate__animated animate__fadeIn">
+          INFLUENCERS
+        </h1>
+        <div className="influencers__grid animate__animated animate__fadeIn">
           <div className="influencers__pack">
             <div className="influencers__img">
               <img src={aashir} />
@@ -122,6 +130,6 @@ const Influencers = () => {
       </div>
     </>
   );
-}
+};
 
-export default Influencers
+export default Influencers;
