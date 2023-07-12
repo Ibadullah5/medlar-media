@@ -46,3 +46,36 @@
     opacity: 1;
   }
 }
+
+/* For WebKit based browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 2px;
+  background-color: #1d1d1d;
+   transition: background-color 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ec7969;
+}
+
+/* For Firefox */
+::-moz-scrollbar {
+  width: 5px;
+  background-color: #1D1D1D;
+  transition: background-color 0.3s ease;
+}
+
+::-moz-scrollbar-thumb {
+  background-color: #ec7969;
+}
+
+/* For Edge and IE */
+::-ms-scrollbar {
+  width: 2px;
+  background-color: #1D1D1D;
+    transition: background-color 0.3s ease;
+}
+
+::-ms-scrollbar-thumb {
+  background-color: #ec7969;
+}

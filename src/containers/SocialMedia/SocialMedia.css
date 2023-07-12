@@ -1,6 +1,7 @@
 .socialmedia img {
   width: 22px;
   z-index: 9999;
+  cursor: pointer;
 }
 
 .facebook-img {
@@ -14,8 +15,6 @@
   right: 40px;
   top: 47%;
 }
-
-
 .up-btn {
   display: none;
   background-color: black;
@@ -29,7 +28,6 @@
 }
 
 @media screen and (max-width: 1100px) {
-
   .facebook-img,
   .instagram-img {
     display: none;

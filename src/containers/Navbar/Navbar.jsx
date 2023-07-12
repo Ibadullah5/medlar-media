@@ -92,10 +92,10 @@ const Navbar = () => {
                 Contact
               </NavLink>
             </li>
-            <li className="social-icons">
-              <img className="facebook-img" src={facebook} />
-              <img className="instagram-img" src={instagram} />
-            </li>
+            <div className="social-icons">
+              <img className="facebook-img-mobile" src={facebook} />
+              <img className="instagram-img-mobile" src={instagram} />
+            </div>
           </ul>
         </div>
       )}

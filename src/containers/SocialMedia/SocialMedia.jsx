@@ -1,41 +1,38 @@
-import './SocialMedia.css'
-import { facebook, instagram, message, upArrow } from '../../assets'
-import { useState, useEffect } from 'react'
+import "./SocialMedia.css";
+import { facebook, instagram, message, upArrow } from "../../assets";
+import { useState, useEffect } from "react";
 
 const SocialMedia = () => {
-
-  const [showButton, setShowButton] = useState()
+  const [showButton, setShowButton] = useState();
 
   useEffect(() => {
-    window.addEventListener('scroll', () => {
-      if (window.scrollY > 500)
-        setShowButton(true)
-      else
-        setShowButton(false)
-    })
-  }, [])
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 500) setShowButton(true);
+      else setShowButton(false);
+    });
+  }, []);
 
   const scrollUp = () => {
     window.scrollTo({
       top: 0,
-      behavior: 'smooth'
-    })
-  }
+      behavior: "smooth",
+    });
+  };
 
   return (
-    <div className='socialmedia'>
-      <img className='facebook-img' src={facebook} />
-      <img className='instagram-img' src={instagram} />
-      <div className='message-wrapper'>
-        <img src={message} />
-      </div>
-      {showButton &&
-        < button className='up-btn' onClick={scrollUp}>
+    <div className="socialmedia">
+      <img className="facebook-img" src={facebook} />
+      <img className="instagram-img" src={instagram} />
+      {/* <div className="message-wrapper">
+        <img className="message-img" src={message} />
+      </div> */}
+      {showButton && (
+        <button className="up-btn" onClick={scrollUp}>
           <img src={upArrow} />
         </button>
-      }
-    </div >
-  )
-}
+      )}
+    </div>
+  );
+};
 
-export default SocialMedia
+export default SocialMedia;
