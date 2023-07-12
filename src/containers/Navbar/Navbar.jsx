@@ -6,10 +6,17 @@ import { useState } from 'react'
 const Navbar = () => {
 
   const [toggle, setToggle] = useState(false)
+  const [remove, setRemove] = useState(true)
+
+  const handleRemove = () => {
+    setRemove(prev => !prev)
+  }
 
   const handleToggle = () => {
-    setToggle(prev => !prev)
+    setToggle(true)
+    setRemove(prev => !prev)
   }
+
 
   return (
     <div className='navbar'>
@@ -52,34 +59,34 @@ const Navbar = () => {
         src={hamburger}
         alt="hamburger" />
       {toggle && (
-        <div className='navbar__mobile'>
+        <div className={`navbar__mobile ${remove ? 'remove' : ''}`}>
           <img
             className='navbar__rightside-hamburger'
-            onClick={handleToggle}
+            onClick={handleRemove}
             src={cross}
             alt="cross" />
           <ul className='navbar__mobile-mainlist'>
-            <li onClick={handleToggle}>
+            <li onClick={handleRemove}>
               <NavLink className='navlinks-mobile' to='/'>
                 Home
               </NavLink>
             </li>
-            <li onClick={handleToggle}>
+            <li onClick={handleRemove}>
               <NavLink className='navlinks-mobile' to='/about'>
                 About
               </NavLink>
             </li>
-            <li onClick={handleToggle}>
+            <li onClick={handleRemove}>
               <NavLink className='navlinks-mobile' to='/influencers'>
                 Influencers
               </NavLink>
             </li>
-            <li onClick={handleToggle}>
+            <li onClick={handleRemove}>
               <NavLink className='navlinks-mobile' to='/services'>
                 Services
               </NavLink>
             </li>
-            <li onClick={handleToggle}>
+            <li onClick={handleRemove}>
               <NavLink className='navlinks-mobile' to='/contact'>
                 Contact
               </NavLink>
