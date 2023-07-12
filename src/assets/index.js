@@ -13,6 +13,8 @@ import reeja from './reeja-jillani.jpg'
 import roha from './roha-khan.jpg'
 import syed from './syed-abdula.jpeg'
 import warisha from './waridsha.jpg'
+import ayesha from './ayesha.jpg'
+import daniya from './daniya.jpg'
 import upArrow from './up-arrow.svg'
 
 export {
@@ -31,5 +33,7 @@ export {
   nazeeha,
   reeja,
   roha,
-  upArrow
+  daniya,
+  ayesha,
+  upArrow,
 }
