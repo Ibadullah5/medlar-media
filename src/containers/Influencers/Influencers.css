@@ -7,7 +7,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
   gap: 50px;
 }
 
@@ -108,20 +107,7 @@
   font-size: 15px;
 }
 
-@media screen and (width > 1300) {
-  .influencers__name {
-    width: 280px;
-    height: 260px;
-  }
 
-  .influencers__img {
-    width: 200px;
-  }
-
-  .influencers__img img {
-    height: 280px;
-  }
-}
 
 @media screen and (max-width:1100px) {
   .influencers__name {
@@ -159,5 +145,69 @@
 
   .influencers__name p {
     font-size: 15px;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .influencers__name {
+    width: 19rem;
+    height:27rem;
+  }
+
+  .influencers__img {
+    width: 19rem;
+  }
+
+  .influencers__img img {
+    height: 27rem;
+  }
+}
+
+
+@media screen and (min-width: 1823px) {
+  .influencers__name {
+    width: 25rem;
+    height:29rem;
+  }
+
+  .influencers__img {
+    width: 25rem;
+  }
+
+  .influencers__img img {
+    height: 29rem;
+  }
+}
+
+.contact_footer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+  
+  margin: 0 5.1rem;
+}
+
+.contact_footer .contact_copyright {
+  padding-top: 12px;
+  padding-bottom: 30px;
+}
+
+.contact_footer .contact_copyright,
+.contact_inquiry p {
+  color: #fff;
+  font-size: 14px;
+  text-align: left;
+  font-family: questrial, sans-serif;
+}
+
+@media (max-width: 768px) {
+  .contact_footer {
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+
+  .contact_inquiry,
+  .contact_copyright {
+    text-align: center;
   }
 }
