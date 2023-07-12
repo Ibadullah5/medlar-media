@@ -2,13 +2,14 @@
   overflow-x: hidden;
   position: relative;
 
+
   background: url('../../assets/home-background.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
   background-attachment: fixed;
 
-  padding: 200px 100px;
+  padding: 120px 100px;
 
   display: flex;
   flex-direction: column;
@@ -36,7 +37,7 @@
   font-family: var(--primary-font);
   color: var(--secondary-color);
   font-weight: 200;
-  font-size: 180px;
+  font-size: 160px;
 
   line-height: 1;
 }
