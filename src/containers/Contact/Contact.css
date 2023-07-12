@@ -1,0 +1,337 @@
+.contact_content1 {
+  margin: 0 5.1rem;
+  background-color: #262626;
+  padding-top: 50px;
+  padding-bottom: 6rem;
+  /* Set the initial margin */
+}
+
+.contact_Text {
+  color: #ec7969;
+  font-family: oswald-extralight, oswald, sans-serif;
+  font-size: 55px;
+  font-weight: 400;
+  text-align: center;
+}
+.contact_header {
+  padding-top: 136px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.contact_content1 p {
+  font-family: questrial, sans-serif;
+  font-size: 15px;
+  letter-spacing: 1px;
+  line-height: 25px;
+  font-weight: lighter;
+}
+
+.contact_section {
+  /* Set the initial background color */
+  color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  /* Align text at the center */
+}
+
+.contact_pink_bg {
+  width: 55%;
+  margin: auto;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+  background-color: #ec7969;
+}
+.contact_black_bg {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 150px;
+  padding-bottom: 75px;
+}
+
+.contact_section_black {
+  flex: 0 0 50%; /* Each text-div occupies 50% of the container width */
+  padding: 10px;
+  text-align: center; /* Center align the text inside each text-div */
+}
+
+@media (max-width: 1150px) {
+  .contact_section_black {
+    flex-basis: 100%; /* On smaller devices, each text-div occupies 100% of the container width */
+  }
+
+  .contact_black_bg {
+    padding-top: 75px;
+    padding-bottom: 20px;
+  }
+}
+
+.contact_section_pink {
+  width: 68%;
+  margin: auto;
+}
+
+.contact_text_black {
+  color: #1d1d1d;
+  font-family: oswald, oswald-extralight, sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 1.3rem;
+}
+
+.contact_text_pink {
+  font-family: oswald, oswald-extralight, sans-serif;
+  font-size: 28px;
+  color: #ec7969;
+  font-weight: 400;
+  margin-bottom: 1.3rem;
+}
+
+@media (max-width: 767px) {
+  .contact_content {
+    margin: 0; /* Remove margin on mobile */
+  }
+
+  .contact_section {
+    margin-left: -20px; /* Remove margin on the sides to make the red div take full width */
+    margin-right: -20px;
+  }
+}
+
+.contact_footer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+  margin: 0 5.1rem;
+}
+
+.contact_footer .contact_copyright {
+  padding-top: 12px;
+  padding-bottom: 30px;
+}
+
+.contact_footer .contact_copyright,
+.contact_inquiry p {
+  color: #fff;
+  font-size: 14px;
+  text-align: left;
+  font-family: questrial, sans-serif;
+}
+
+@media (max-width: 768px) {
+  .contact_footer {
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+
+  .contact_inquiry,
+  .contact_copyright {
+    text-align: center;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1200px) {
+     .contact_content1 {
+    padding-bottom: 6rem;
+    /* Set the initial margin */
+  }
+  .contact_pink_bg {
+    width: 83%;
+    margin: auto;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+    background-color: #ec7969;
+  }
+  .contact_black_bg {
+    width: 55%;
+    margin: auto;
+  }
+  .section_pink {
+    width: 70%;
+    margin: auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .contact_content1 {
+    padding-bottom: 6rem;
+    /* Set the initial margin */
+  }
+  .contact_pink_bg {
+    width: 90%;
+    margin: auto;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    background-color: #ec7969;
+  }
+  .contact_black_bg {
+    width: 70%;
+    margin: auto;
+  }
+  .contact_section_pink {
+    width: 80%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .contact_content1 {
+    margin: 0;
+    padding-bottom: 10rem;
+    /* Set the initial margin */
+  }
+  .contact_pink_bg {
+    width: 100%;
+    margin: auto;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    background-color: #ec7969;
+  }
+  .contact_black_bg {
+    width: 80%;
+    margin: auto;
+  }
+  .contact_section_pink {
+    width: 90%;
+    margin: auto;
+  }
+}
+
+.form_p{
+  color: #1d1d1d;
+}
+
+
+.contact_form{
+  display: flex;
+  flex-grow: inherit;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.form__group {
+  position: relative;
+  padding: 20px 0 0;
+  width: 100%;
+  max-width: 80%;
+}
+
+.form__field {
+  font-family: questrial,sans-serif;
+  width: 100%;
+  border: none;
+  border-bottom: 1.5px solid #d7c6c6;
+  outline: 0;
+  font-size: 15px;
+  color: #1d1d1d;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+
+.form__field::placeholder {
+  color: transparent;
+}
+
+.form__field:placeholder-shown ~ .form__label {
+  font-size: 15px;
+  font-family: questrial,sans-serif;
+  cursor: text;
+  top: 25px;
+}
+
+.form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 15px;
+  color:  #1d1d1d;
+  pointer-events: none;
+}
+
+.form__field:focus {
+  padding-bottom: 6px;
+  border-color: #1d1d1d;
+  border-image-slice: 1;
+}
+
+.form__field:focus ~ .form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 15px;
+ 
+  font-family: questrial,sans-serif;
+}
+
+/* reset input */
+.form__field:required, .form__field:invalid {
+  box-shadow: none;
+}
+/* .contact_button_div{
+flex: 0.2;
+} */
+
+
+
+.contact_button{
+  font-size: 16px;
+  font-family: questrial,sans-serif;
+  padding: 12px 22px;
+  border: none;
+  background-color: #1d1d1d;
+  color: white;
+  margin-top: 0.7rem;
+  margin-left: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.contact_button:hover{
+    background-color: #ec7969;
+    padding: 10px 20px;
+    border: 2px solid #1d1d1d;
+
+}
+
+@media (max-width:768px) {
+  .contact_form{
+    margin-left: 2rem;
+    margin-right: 2rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+.form__group {
+  max-width:90%;
+}
+.contact_button_div{
+  
+   display: flex;
+   justify-content: center;
+   width: 95%;
+  }
+.contact_button{
+  width: 100%;
+  padding: 22px 35px;
+  margin-right: 1.1rem;
+}
+.contact_button:hover{
+    background-color: #ec7969;
+    padding: 20px 33px;
+    border: 2px solid #1d1d1d;
+
+}
+  
+}

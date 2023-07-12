@@ -1,0 +1,158 @@
+.content1 {
+  margin: 0 5.1rem;
+  background-color: #262626;
+  padding-top: 50px;
+  padding-bottom: 4rem;
+ /* Set the initial margin */
+}
+
+
+.header {
+  padding-top: 136px;
+  padding-bottom: 40px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.content1 p {
+  font-family: questrial, sans-serif;
+  font-size: 15px;
+  letter-spacing: 1px;
+  line-height: 25px;
+  font-weight: lighter;
+}
+
+
+.pink_bg {
+  width: 55%;
+  margin: auto;
+  padding-top: 3rem;
+  padding-bottom: 9rem;
+background-color: #ec7969;
+  
+}
+.black_bg {
+  width: 42%;
+  margin: auto;
+}
+.section_pink{
+    width: 68%;
+    margin: auto;
+}
+
+
+
+
+.text_black {
+  color: #1d1d1d;
+  font-family: oswald, oswald-extralight, sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 1.3rem;
+}
+
+.text_pink {
+  font-family: oswald, oswald-extralight, sans-serif;
+  font-size: 28px;
+  color: #ec7969;
+  font-weight: 400;
+   margin-bottom: 1.3rem;
+}
+
+.section {
+  /* Set the initial background color */
+  color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  /* Align text at the center */
+}
+
+
+@media (max-width: 767px) {
+  .content {
+    margin: 0; /* Remove margin on mobile */
+  }
+
+  .section {
+    margin-left: -20px; /* Remove margin on the sides to make the red div take full width */
+    margin-right: -20px;
+  }
+
+  .section.red-bg {
+    margin-left: 0; /* Reset margin for red div */
+    margin-right: 0;
+  }
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+  margin: 0 5.1rem;
+}
+
+
+@media (min-width: 991px) and (max-width: 1200px) {
+ .pink_bg {
+  width: 83%;
+  margin: auto;
+  padding-top: 3rem;
+  padding-bottom: 9rem;
+background-color: #ec7969;
+  
+}
+.black_bg {
+  width: 60%;
+  margin: auto;
+}
+.section_pink{
+    width: 70%;
+    margin: auto;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .pink_bg {
+  width: 90%;
+  margin: auto;
+  padding-top: 3rem;
+  padding-bottom: 9rem;
+background-color: #ec7969;
+  
+}
+.black_bg {
+  width: 70%;
+  margin: auto;
+}
+.section_pink{
+    width: 80%;
+    margin: auto;
+}
+}
+
+@media (max-width: 767px) {
+    .content1 {
+  margin: 0 ;
+  padding-bottom: 0;
+ /* Set the initial margin */
+}
+   .pink_bg {
+  width: 100%;
+  margin: auto;
+  padding-top: 3rem;
+  padding-bottom: 9rem;
+background-color: #ec7969;
+  
+}
+.black_bg {
+  width: 80%;
+  margin: auto;
+}
+.section_pink{
+    width: 90%;
+    margin: auto;
+}
+}
