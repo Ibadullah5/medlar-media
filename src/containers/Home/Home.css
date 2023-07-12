@@ -14,13 +14,13 @@
   align-items: flex-start;
   justify-content: space-around;
 
-  gap: 40px;
+  gap: 60px;
 }
 
 .home-maindiv {
   display: flex;
   flex-direction: column;
-  gap: 100px;
+  gap: 120px;
 
   padding-left: 50px;
 }
@@ -37,6 +37,8 @@
   font-weight: 200;
   font-size: 160px;
 
+  padding-bottom: 100px;
+
   line-height: 1;
 }
 
@@ -44,7 +46,7 @@
   font-family: var(--primary-font);
   color: var(--primary-color);
   font-weight: 200;
-  font-size: 90px;
+  font-size: 70px;
 }
 
 .home__heading-paragraph {
@@ -135,7 +137,8 @@
   }
 
   .home__heading {
-    font-size: 90px;
+    font-size: 70px;
+    padding-bottom: 30px;
   }
 
   .home__heading-small {
