@@ -1,0 +1,142 @@
+.influencers {
+  background-color: var(--bg-primary);
+
+  padding: 50px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 50px;
+}
+
+.influencers__grid {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  justify-content: center;
+
+  flex-wrap: wrap;
+}
+
+.influencers__heading {
+  color: var(--secondary-color);
+  font-family: var(--primary-font);
+  font-size: 55px;
+  font-weight: 400;
+
+  width: 100%;
+
+  text-align: center;
+}
+
+.influencers__name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 297px;
+  height: 396px;
+
+
+  transition: all 0.5s;
+  background-color: #2c2b2b;
+
+}
+
+.influencers__name:hover {
+  background-color: #202020;
+  cursor: pointer;
+}
+
+.influencers__name:hover .paragraph {
+  transform: scale(1.1)
+}
+
+.paragraph {
+  transition: all 0.7s;
+}
+
+.influencers__name p {
+  font-family: var(--primary-font);
+  font-size: 20px;
+  font-weight: 400;
+
+  color: var(--secondary-color);
+}
+
+.influencers__img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: contain;
+  width: 297px;
+  overflow: hidden;
+}
+
+.influencers__img img {
+  object-fit: cover;
+  width: 100%;
+  height: 396px;
+
+  transition: all 0.7s;
+}
+
+.influencers__img img:hover {
+  transform: scale(1.05);
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.influencers-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+  gap: 15px;
+}
+
+.influencers-footer p {
+  font-family: var(--secondary-font);
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 15px;
+}
+
+@media screen and (max-width:1100px) {
+  .influencers__name {
+    width: 180px;
+    height: 260px;
+  }
+
+  .influencers__img {
+    width: 180px;
+  }
+
+  .influencers__img img {
+    height: 260px;
+  }
+}
+
+@media screen and (max-width:650px) {
+
+  .influencers {
+    padding: 50px 0px;
+  }
+
+  .influencers__name {
+    width: 150px;
+    height: 250px;
+  }
+
+  .influencers__img {
+    width: 150px;
+  }
+
+  .influencers__img img {
+    height: 250px;
+  }
+
+  .influencers__name p {
+    font-size: 15px;
+  }
+}
