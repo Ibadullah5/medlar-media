@@ -18,6 +18,10 @@ import { useEffect } from "react";
 
 const Influencers = () => {
 
+  const openUrl = (url) => {
+    window.open(url, "_blank");
+  };
+
    useEffect(() => {
      document.title = "Influencers | Medlar Media";
    }, []);
@@ -35,7 +39,10 @@ const Influencers = () => {
           INFLUENCERS
         </h1>
         <div className="influencers__grid animate__animated animate__fadeIn">
-          <div className="influencers__pack">
+          <div
+            className="influencers__pack"
+            onClick={() => openUrl("https://instagram.com/aashirwajahat")}
+          >
             <div className="influencers__img">
               <img src={aashir} />
             </div>
@@ -44,7 +51,10 @@ const Influencers = () => {
             </div>
           </div>
 
-          <div className="influencers__pack">
+          <div
+            className="influencers__pack"
+            onClick={() => openUrl("https://instagram.com/_.areebanadeem")}
+          >
             <div className="influencers__img">
               <img src={areeba} />
             </div>
@@ -53,7 +63,10 @@ const Influencers = () => {
             </div>
           </div>
 
-          <div className="influencers__pack">
+          <div
+            className="influencers__pack"
+            onClick={() => openUrl("https://instagram.com/ayeshakhalid_")}
+          >
             <div className="influencers__name">
               <p className="paragraph">AYESHA KHALID</p>
             </div>
@@ -62,7 +75,10 @@ const Influencers = () => {
             </div>
           </div>
 
-          <div className="influencers__pack">
+          <div
+            className="influencers__pack"
+            onClick={() => openUrl("https://instagram.com/daniyakanwall")}
+          >
             <div className="influencers__name">
               <p className="paragraph">DANIYA KANWAL</p>
             </div>
@@ -71,7 +87,10 @@ const Influencers = () => {
             </div>
           </div>
 
-          <div className="influencers__pack">
+          <div
+            className="influencers__pack"
+            onClick={() => openUrl("https://instagram.com/jiyaxk")}
+          >
             <div className="influencers__img">
               <img src={jiya} />
             </div>
@@ -80,7 +99,10 @@ const Influencers = () => {
             </div>
           </div>
 
-          <div className="influencers__pack">
+          <div
+            className="influencers__pack"
+            onClick={() => openUrl("https://instagram.com/maimoona._.shah")}
+          >
             <div className="influencers__img">
               <img src={maimoona} />
             </div>
@@ -89,7 +111,10 @@ const Influencers = () => {
             </div>
           </div>
 
-          <div className="influencers__pack">
+          <div
+            className="influencers__pack"
+            onClick={() => openUrl("https://instagram.com/mustafababarr")}
+          >
             <div className="influencers__name">
               <p className="paragraph">MUSTAFA BABER</p>
             </div>
@@ -98,7 +123,10 @@ const Influencers = () => {
             </div>
           </div>
 
-          <div className="influencers__pack">
+          <div
+            className="influencers__pack"
+            onClick={() => openUrl("https://instagram.com/_nazeehanauroze")}
+          >
             <div className="influencers__name">
               <p className="paragraph">NAZEEHA</p>
             </div>
@@ -107,7 +135,10 @@ const Influencers = () => {
             </div>
           </div>
 
-          <div className="influencers__pack">
+          <div
+            className="influencers__pack"
+            onClick={() => openUrl("https://instagram.com/reeja_jay.official")}
+          >
             <div className="influencers__img">
               <img src={reeja} />
             </div>
@@ -116,7 +147,10 @@ const Influencers = () => {
             </div>
           </div>
 
-          <div className="influencers__pack">
+          <div
+            className="influencers__pack"
+            onClick={() => openUrl("https://instagram.com/rohlicious")}
+          >
             <div className="influencers__img">
               <img src={roha} />
             </div>
@@ -125,7 +159,10 @@ const Influencers = () => {
             </div>
           </div>
 
-          <div className="influencers__pack">
+          <div
+            className="influencers__pack"
+            onClick={() => openUrl("https://instagram.com/syedabdula")}
+          >
             <div className="influencers__name">
               <p className="paragraph">SYED ABDULA</p>
             </div>
@@ -134,9 +171,15 @@ const Influencers = () => {
             </div>
           </div>
 
-          <div className="influencers__pack">
+          <div
+            className="influencers__pack"
+            onClick={() => openUrl("https://instagram.com/warisha.jk")}
+          >
             <div className="influencers__name">
-              <p className="paragraph">WARISHA JAVED KHAN</p>
+              <p className="paragraph">
+                &nbsp;&nbsp;WARISHA <br />
+                JAVED KHAN
+              </p>
             </div>
             <div className="influencers__img">
               <img src={warisha} />
@@ -146,7 +189,7 @@ const Influencers = () => {
       </div>
       <div className="contact_footer">
         <div className="contact_inquiry">
-          <p>FOR GENERAL INQUIRIES 03240803628</p>
+          <p>FOR GENERAL INQUIRIES 03195199331</p>
         </div>
         <div className="contact_copyright">
           <p>© 2021 by Medlar Media</p>

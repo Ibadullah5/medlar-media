@@ -66,8 +66,8 @@
   padding: 20px;
   display: none;
   margin-left: auto;
+  cursor: pointer;
 }
-
 .navbar__mobile {
   position: fixed;
   top: 0;
@@ -84,7 +84,9 @@
   /* animation: slide-bottom 0.5s ease; */
   transition: all 0.6s;
 }
-
+.navbar__mobile ul {
+  gap: 70px;
+}
 .navbar__mobile-mainlist {
   width: 100%;
   display: flex;
@@ -132,6 +134,7 @@
 .social-icons img {
   width: 20px;
   margin: 20px;
+  margin-top: -30px;
   cursor: pointer;
 }
 

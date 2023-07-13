@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import "./Contact.css";
 import "animate.css";
+import { Link } from "react-router-dom";
 
 function Contact() {
   useEffect(() => {
@@ -18,15 +19,18 @@ function Contact() {
           <div class="contact_section contact_section_black">
             <h2 className="contact_text_pink">BOOK AN INFLUENCER</h2>
             <p>
-              +92-324-0803628
-              <br /> <span>manager@medlarmedia.com</span>
+              +92-319-5199331
+              <br /> <span className="email_line">manager@medlarmedia.com</span>
             </p>
           </div>
           <div class="contact_section contact_section_black">
             <h2 className="contact_text_pink ">BECOME AN INFLUENCER</h2>
             <p>
               To apply for Medlar Talent
-              <br /> <span>Click Here</span>
+              <br />
+              <span className="email_line">
+                <Link to="/services" className="link_click">Click Here</Link>{" "}
+              </span>
             </p>
           </div>
         </div>
@@ -57,7 +61,7 @@ function Contact() {
       </div>
       <div className="contact_footer">
         <div className="contact_inquiry">
-          <p>FOR GENERAL INQUIRIES 03240803628</p>
+          <p>FOR GENERAL INQUIRIES 03195199331</p>
         </div>
         <div className="contact_copyright">
           <p>© 2021 by Medlar Media</p>

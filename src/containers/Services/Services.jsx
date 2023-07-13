@@ -70,7 +70,7 @@ function Services() {
       </div>
       <div className="footer">
         <div className="inquiry">
-          <p>FOR GENERAL INQUIRIES 03240803628</p>
+          <p>FOR GENERAL INQUIRIES 03195199331</p>
         </div>
         <div className="copyright">
           <p>© 2021 by Medlar Media</p>

@@ -335,3 +335,13 @@ flex: 0.2;
 }
   
 }
+.email_line{
+  text-decoration: underline;
+  text-decoration-color: white;
+  cursor: pointer;
+}
+
+.link_click{
+  text-decoration: none;
+  color: #fff;
+}

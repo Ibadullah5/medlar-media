@@ -32,7 +32,7 @@ const Home = () => {
       </div>
 
       <div className="home-footer">
-        <p>FOR GENERAL INQUIRIES 03240803628</p>
+        <p>FOR GENERAL INQUIRIES 03195199331</p>
         <p> © 2021 by Medlar Media</p>
       </div>
     </div>
