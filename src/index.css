@@ -5,11 +5,11 @@
   --primary-font: 'Oswald', sans-serif;
   --secondary-font: 'Questrial', sans-serif;
 
-  --primary-color: rgb(255, 255, 255);
-  --secondary-color: rgb(236, 121, 105);
+  --primary-color: #ffffff;
+  --secondary-color: #ec7969;
   --third-color: #1D1D1D;
 
-  --bg-primary: rgb(29, 29, 29);
+  --bg-primary: #1d1d1d;
 }
 
 * {
