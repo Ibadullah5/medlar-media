@@ -1,7 +1,7 @@
 .home {
   overflow-x: hidden;
 
-  background: url('../../assets/home-background.jpg');
+  background: url('../../assets/background-image.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
@@ -35,7 +35,7 @@
   font-family: var(--primary-font);
   color: var(--secondary-color);
   font-weight: 200;
-  font-size: 160px;
+  font-size: 180px;
 
   line-height: 1;
 }

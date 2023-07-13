@@ -1,6 +1,11 @@
+import { useEffect } from "react";
 import "./Home.css";
 import { NavLink } from "react-router-dom";
 const Home = () => {
+  useEffect(() => {
+    document.title = "Home | Medlar Media";
+  }, []);
+
   const animationDuration = "5s";
   return (
     <div className="home animate__animated animate__fadeIn">

@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./About.css";
 import Aboutimage from "../../assets/About.jpg";
 import "animate.css";
 function About() {
+   useEffect(() => {
+     document.title = "About | Medlar Media";
+   }, []);
   const animationDuration = "1s";
   return (
     <div

@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Contact.css";
 import "animate.css";
 
 function Contact() {
+  useEffect(() => {
+    document.title = "Contact | Medlar Media";
+  }, []);
+
   return (
     <div className="contact_main animate__animated animate__fadeIn">
       <div className="contact_header">

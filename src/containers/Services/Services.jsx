@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Services.css";
 import 'animate.css'
 function Services() {
+   useEffect(() => {
+     document.title = "Services | Medlar Media";
+   }, []);
   return (
     <div className="services_main animate__animated animate__fadeIn">
       <div className="header">

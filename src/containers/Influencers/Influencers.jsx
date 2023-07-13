@@ -17,6 +17,10 @@ import "animate.css";
 import { useEffect } from "react";
 
 const Influencers = () => {
+
+   useEffect(() => {
+     document.title = "Influencers | Medlar Media";
+   }, []);
   useEffect(() => {
     window.scrollTo({
       top: 0,
