@@ -3,7 +3,7 @@ https://medlar.media
 
 [Collaborator: https://github.com/Ibadullah5](https://github.com/Haseeeb1)
 
-A work for : https://instagram.com/medar.media
+A work for : https://instagram.com/medlar.media
 
 Created using : React, Css, animate.css and react-router\
 
