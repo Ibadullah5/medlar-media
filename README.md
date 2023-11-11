@@ -1,5 +1,5 @@
-#  Live Website link
-https://medlar.media
+#  Deployed Site
+[https://medlar.media](https://medlar-media.vercel.app/)
 
 [Collaborator: https://github.com/Haseeeb1]
 
